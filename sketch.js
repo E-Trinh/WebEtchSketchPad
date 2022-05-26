@@ -7,7 +7,7 @@ for (let i = 0; i < 16; i++) {
     for (let i = 0; i < 16; i++) {
         const box = document.createElement("box");
         box.addEventListener("mouseover", (e) => {
-            e.target.style.backgroundColor = "green";
+            e.target.style.backgroundColor = "black";
         });
         box.classList.toggle("box")
         row.appendChild(box);
