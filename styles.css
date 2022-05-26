@@ -3,10 +3,6 @@
     background-color: #D3D2D0;
 }
 
-body {
-
-}
-
 .button {
     border-radius: 10px;
     margin-bottom: 24px;
@@ -41,4 +37,5 @@ body {
 
 .box {
     flex: 1;
+    background-color: white;
 }

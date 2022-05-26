@@ -9,7 +9,12 @@ function addGrid(count) {
         for (let i = 0; i < count; i++) {
             const box = document.createElement("box");
             box.addEventListener("mouseover", (e) => {
-                e.target.style.backgroundColor = "black";
+                //set to a random rgb color
+                const r = Math.random() * 256;
+                const g = Math.random() * 256;
+                const b = Math.random() * 256;
+                const rgb = "rgb(" + r + "," + g + "," + b + ")";
+                e.target.style.backgroundColor = rgb;
             });
             box.classList.toggle("box")
             row.appendChild(box);
