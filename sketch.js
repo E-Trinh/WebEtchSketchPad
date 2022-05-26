@@ -34,5 +34,5 @@ button.addEventListener("click", () => {
 });
 document.querySelector("body").appendChild(button);
 
-//draws the initial gridd
+//draws the initial gridds
 addGrid(16);
